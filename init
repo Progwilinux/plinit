@@ -2,7 +2,7 @@
 
 . /etc/os-release
 
-cd /etc/progwinit
+cd /etc/plinit
 find . -name "*.sh" -exec sh {} \;
 
 cd /
