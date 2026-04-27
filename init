@@ -1,0 +1,8 @@
+#!/bin/sh
+
+. /etc/os-release
+
+cd /etc/progwinit
+find . -name "*.sh" -exec sh {} \;
+
+cd /
