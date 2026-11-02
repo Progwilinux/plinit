@@ -1,8 +1,0 @@
-#!/bin/sh
-
-. /etc/os-release
-
-cd /etc/plinit
-find . -name "*.sh" -exec sh {} \;
-
-cd /

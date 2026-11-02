@@ -1,3 +1,4 @@
-### 🖥️ plinit
-
-Простий init для [Progwilinux](https://github.com/progwi0/progwilinux).
+<div align="center">
+    <h1>plinit</h1>
+    <span>Stupid simple init.</span>
+</div>
