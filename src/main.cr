@@ -14,6 +14,16 @@ when "--disk"
         Logs.log("Omagad!")
         sleep 2
     end
+when "--test"
+    Storage.mount("sysfs", "/sys")
+    Storage.mount("proc", "/proc")
+    Storage.mount("devtmpfs", "/dev")
+
+    loop do
+        system("/bin/sh -i")
+        Logs.log("Omagad!")
+        sleep 2
+    end
 when "--initrd"
     Storage.mount("sysfs", "/sys")
     Storage.mount("proc", "/proc")
